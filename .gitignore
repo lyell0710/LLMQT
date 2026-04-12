@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.idea/
+*.swp
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Env / secrets
+.env
+*.pem
+
+# Models / large artifacts (do not commit weights)
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+*.gguf
